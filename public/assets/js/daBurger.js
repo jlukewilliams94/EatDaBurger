@@ -1,5 +1,4 @@
 
-
 $(function(){
     // Devoured Button Function
     $(".eat-burger").on("click", function (event){
@@ -9,7 +8,7 @@ $(function(){
         let ifDevoured = $(this).data("ifdevoured");
 
         let ifEaten = {
-            devoured = ifDevoured
+            devoured: ifDevoured
         };
         $.ajax("/api/burgers/" + burgerId, {
             type: "PUT",
