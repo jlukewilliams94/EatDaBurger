@@ -7,11 +7,12 @@ let burgers = require("../models/burger");
 // Get current burgers
 router.get("/", function(req,res){
     burgers.all(function (data){
-        let burgerhdb = {
-            burger: data
-        };
-        console.log(burgerhdb);
-        res.render("index", burgerhdb)
+
+        let burgersRendered = {
+            burgers: data
+        }
+        console.log(burgersRendered)
+        res.render("index", burgersRendered)
     })
 
 });
