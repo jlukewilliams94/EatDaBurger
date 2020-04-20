@@ -38,7 +38,7 @@ $(function(){
             devoured: 0
         }
         console.log(createdBurger)
-        $.ajax("/api/burgers", {
+        $.ajax("/api/burgers/", {
             type: "POST", 
             data: createdBurger
         }).then(function(){
