@@ -90,5 +90,5 @@ var orm = {
   }
 };
 
-// Export the orm object for the model (daBurger.js).
+// Export the orm object for the model (.js).
 module.exports = orm;
