@@ -1,9 +1,9 @@
 <li>
 	{{burger_name}}
 
-	<button class="btn waves-effect green btn-large" type="submit" name="action" data-id="{{id}}" data-newdevoured="{{devoured}}">
+	<button class="eat-burger btn waves-effect green btn-large" type="submit" name="action" data-id="{{id}}" data-ifdevoured="{{devoured}}">
 		{{#if devoured}}DEVOUR!{{else}}ORDER AGAIN{{/if}}
 	</button>
 
-	<button class="btn waves-effect red lighten-1 btn-large" type="submit" name="action" data-id="{{this.id}}">DELETE</button>
+	<button class="remove-burger btn waves-effect red lighten-1 btn-large" type="submit" name="action" data-id="{{this.id}}">DELETE</button>
 </li>
