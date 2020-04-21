@@ -12,6 +12,9 @@
 * Express Handlebars
 * MySQL
 * JAWSDB SQL
+* ORM
+* Node.js
+
 
 
 

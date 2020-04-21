@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .burger-form {
     padding: 20px !important;
     margin: 10px !important;
@@ -10,13 +14,14 @@
 
 li {
     padding: 2%;
-    background: #faebd7;
+    background: whitesmoke;
     font-size: 3rem;
 }
 
 .title, .sub-title {
     font-family: 'Permanent Marker', cursive;
     text-align: center;
+    color: white;
 }
 
 .sub-title {
