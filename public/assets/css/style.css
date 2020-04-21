@@ -8,8 +8,12 @@ body {
     text-align: center;
 }
 
-.form-group{
+.form-group, #daNewBurger{
     text-align: center;
+    background-color: whitesmoke;
+    margin-bottom: 1rem;
+    font-size: medium;
+    font-family: 'Righteous', cursive;
 }
 
 li {
