@@ -1,0 +1,28 @@
+.burger-form {
+    padding: 20px !important;
+    margin: 10px !important;
+    text-align: center;
+}
+
+.form-group{
+    text-align: center;
+}
+
+li {
+    padding: 2%;
+    background: #faebd7;
+    font-size: 3rem;
+}
+
+.title, .sub-title {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 2rem;
+}
+
+.burger-nm {
+    font-family: 'Righteous', cursive;
+}
